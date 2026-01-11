@@ -7,8 +7,7 @@ Calculadora de IMC feita com HTML, CSS e JavaScript.
 🔹 Projeto de estudo em JavaScript
 
 🔗 Preview online:
-(https://codesandbox.io/p/sandbox/github/Jailsonlimma/imc-calculator)
-
+https://jailsonlimma.github.io/imc-calculator/
 
 ## Tecnologias
 - HTML
