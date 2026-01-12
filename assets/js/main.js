@@ -1,6 +1,4 @@
-//captura evento de submit do formulario
-
-const form = document.querySelector('#formulario'); //Pega o 
+const form = document.querySelector('#formulario'); 
 
 form.addEventListener('submit', function (evento) {
     evento.preventDefault();
