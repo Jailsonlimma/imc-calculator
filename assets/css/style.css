@@ -3,7 +3,7 @@
 :root {
     --primary-color-grey: #b8bcc4;
     --primary-color: #12858F;
-    --primary-color-dark: #194046;
+    --primary-color-dark: #006474;
     --primary-color-active: #2391a2;
 }
 
@@ -17,33 +17,34 @@ body {
     margin: 0;
     padding: 10;
     background: #00869d;
-
+    background: linear-gradient(90deg, #246078 0%, #00dcf9 100%);
     font-family: 'Open Sans', sans-serif;
     font-size: 1.3em;
     line-height: 1.5em;
 }
 
-.container.paragrafo-resultado {
-    margin-top: 500px;
-    background: rgba(62, 11, 145, 0.674);
-
-
-
+.paragrafo-resultado {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 30px;
+    color: rgb(0, 98, 23);
+    background: rgba(1, 154, 47, 0.174);
+    padding: 10px 20px;
 }
 
 .container {
-    max-width: 640px;
+    max-width: 600px;
     margin: 150px auto;
-    background: #efeff0;
+    background: #FDFFFF;
     padding: 20px 50px;
     margin-bottom: 10px;
     border-radius: 10px;
-    box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.197);
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.18);
 }
 
 form input,
 form label,
 form button {
+    color: rgb(104, 104, 104);
     display: block;
     width: 100%;
     margin-bottom: 10px;
@@ -54,28 +55,33 @@ form input {
     font-size: 24px;
     height: 50px;
     padding: 0 20px;
-
-}
-
-form input {
-    outline: 2.0px solid var(--primary-color-grey);
+    outline: 1px solid rgba(165, 165, 165, 0.148);
+    box-shadow: rgba(0, 0, 0, 0.137) 4px 4px 2.6px;
     border: 0;
 
 }
 
+
 form button {
-    margin-top: 30px;
+    font-family: Helvetica, sans-serif;
     border: none;
-    background: var(--primary-color);
-    color: white;
-    font-size: 18px;
+    background: linear-gradient(90deg, #12858F 0%, #00b8af 100%);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
     font-weight: 700px;
     height: 50px;
     cursor: pointer;
 
 }
 
+form input:focus {
+    transition: ease-out 0.2s;
+    box-shadow: 0 3px 5px rgba(1, 132, 132, 0.477);
+    border: none;
+}
+
 form button:hover {
+    transition: ease-out 0.6s;
     background: var(--primary-color-dark);
 }
 
@@ -87,20 +93,20 @@ form button:active {
 .paragrafo-resultado,
 .bad {
     text-align: center;
-    outline: 2.0px solid var(--primary-color-grey);
+    outline: 1.0px solid var(--primary-color-grey);
     border: 0;
     border-radius: 10px;
-    background: #a0e7a0;
     padding: 10px 20px;
 
 }
 
 
 .bad {
-    background: rgb(255, 91, 91);
+    color: white;
+    background: rgb(255, 102, 102);
 }
 
 .titulo {
     text-align: center;
-    color: rgb(84, 84, 84);
+    color: rgb(116, 116, 116);
 }
