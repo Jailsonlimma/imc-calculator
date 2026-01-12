@@ -63,6 +63,7 @@ form input {
 
 
 form button {
+    margin-top: 30px;
     font-family: Helvetica, sans-serif;
     border: none;
     background: linear-gradient(90deg, #12858F 0%, #00b8af 100%);

@@ -61,8 +61,9 @@ function setResultado(msg, isValid) {
     const resultadoDoJS = document.querySelector('#resultadoDoHTML');
     resultadoDoJS.innerHTML = '';
     const p = criaP();
-    if (isValid){ 
-        p.classList.add('paragrafo-resultado');}
+    if (isValid) {
+        p.classList.add('paragrafo-resultado');
+    }
     else {
         p.classList.add('bad');
     }
