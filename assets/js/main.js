@@ -27,7 +27,6 @@ form.addEventListener('submit', function (evento) {
 
     setResultado(msg, true);
 
-    // Continua o codigo....
 });
 
 
